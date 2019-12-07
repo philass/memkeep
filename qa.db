@@ -1,0 +1,4 @@
+How many threads are in a cuda warp?
+32
+How many threads are in a cuda block?
+1024
