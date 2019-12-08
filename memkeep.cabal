@@ -18,4 +18,5 @@ executable memkeep
   main-is:             Main.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5,
-                       directory  >= 1.3 && < 1.4
+                       directory  >= 1.3 && < 1.4,
+                       random >= 1.0
