@@ -5,9 +5,6 @@ import System.Directory
 import System.Random
 import Data.Typeable
 
-appendFileLine :: FilePath -> String -> IO ()
-appendFileLine file line = appendFile file $ line ++ ['\n']
-
 askQuestion :: IO ()
 askQuestion = do
   let file = "qa.db"

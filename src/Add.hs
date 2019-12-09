@@ -3,7 +3,10 @@ module Add where
 import System.IO
 import System.Directory
 
+appendFileLine :: FilePath -> String -> IO ()
 appendFileLine file line = appendFile file $ line ++ ['\n']
+
+addQuestion :: IO ()
 addQuestion = do
   let file = "qa.db"
   fileExist <- doesFileExist file
