@@ -4,6 +4,7 @@ import System.IO
 import System.Directory
 import System.Random
 import Data.Typeable
+
 appendFileLine :: FilePath -> String -> IO ()
 appendFileLine file line = appendFile file $ line ++ ['\n']
 
